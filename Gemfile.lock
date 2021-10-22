@@ -68,6 +68,9 @@ GEM
       thor (>= 0.14.0, < 2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    httparty (0.20.0)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.2)
@@ -82,9 +85,13 @@ GEM
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     method_source (1.0.0)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2021.0901)
     mini_mime (1.1.2)
     mini_portile2 (2.4.0)
     minitest (5.14.4)
+    multi_xml (0.6.0)
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
@@ -178,6 +185,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   figaro
+  httparty
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg
