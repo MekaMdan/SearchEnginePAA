@@ -1,0 +1,52 @@
+# Environment normalization:
+*.DS_Store
+.idea
+.rvmrc
+.vscode
+/.bundle
+/vendor/bundle
+
+# Ignore all logfiles and tempfiles:
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development:
+/storage/*
+!/storage/.keep
+
+# Ignore node_modules:
+node_modules/
+
+# Ignore yarn files:
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore precompiled javascript packs:
+/public/packs
+/public/packs-test
+/public/assets
+
+# Ignore Byebug command history file:
+.byebug_history
+
+# Ignore project secrets:
+/config/initializers/secret_token.rb
+
+# Ignore application configuration
+/config/application.yml
+
+# Ignores coverage report
+/coverage
+
+# Ignores redis dump file
+dump.rdb
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
