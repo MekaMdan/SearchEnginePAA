@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. bundle install
+2. bundle exec figaro install
+3. preencher o arquivo application.yml com:
 
-Things you may want to cover:
+``` yml
+DB_USER: postgres
+DB_PASSWORD: postgres
+```
 
-* Ruby version
+4. rodar o postgres localmente ou no docker (recomendo docker)
+5. rake db:create
+6. rake db:migrate
+7. rails s
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Isso deve deixar o projeto rodando
+versão do ruby 2.7.2 e rails 5.1.6
